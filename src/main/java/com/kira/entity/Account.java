@@ -4,7 +4,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table
-public class account {
+public class Account {
     @Id
     private String address;
     private String transaction;
